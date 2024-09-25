@@ -1,0 +1,18 @@
+color $rojo --> #FF00F0;
+número $pasos --> 2;
+repetir(3){
+		pintar($rojo);
+		izquierda();
+
+		repetir($pasos){
+			pintar($azul);
+			derecha();
+			repetir($pasos){
+				pintar(#AAAAAA);
+			}
+		}
+	atras();
+}
+
+color $azul --> #FFAA0A;
+adelante();
